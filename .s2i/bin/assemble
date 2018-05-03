@@ -1,7 +1,6 @@
 #!/bin/bash
 
-ls -alR /opt/s2i/destination/src/repository
-
+ls -alR /opt/s2i/
 . /usr/local/s2i/bin/assemble
 
 cat /opt/s2i/destination/src/repository/org/apache/maven/plugins/maven-failsafe-plugin/2.17/_remote.repositories
