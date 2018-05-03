@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ls -alR /opt/s2i/destination/src/repository
+ls -alR /opt/s2i/
 
 . /usr/local/s2i/bin/assemble
 
