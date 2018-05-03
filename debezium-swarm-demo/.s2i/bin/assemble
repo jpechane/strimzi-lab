@@ -1,0 +1,7 @@
+#!/bin/bash
+
+ls -alR /tmp
+
+. /usr/local/s2i/bin/assemble
+
+ls -alR /tmp
