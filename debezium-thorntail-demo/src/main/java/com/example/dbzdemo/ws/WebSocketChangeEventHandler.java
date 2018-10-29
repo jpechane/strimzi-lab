@@ -40,7 +40,7 @@ public class WebSocketChangeEventHandler {
         return sessions;
     }
 
-    @Consumer(topics = "dbserver1.inventory.Hike", groupId = "ws-handler")
+    @Consumer(topics = "EventrOrder", groupId = "ws-handler")
     public void receiver(String key, JsonObject value) {
         JsonValue payload = value.get( "payload" );
         String before = payload instanceof JsonObject ? ( (JsonObject)payload ).get( "before" ).toString() : "";
